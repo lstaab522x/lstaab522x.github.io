@@ -1,4 +1,78 @@
 body{
-    background-color: green;
+    background-color:black;
+    margin: 50px;
+    font-size: 24px;
+   color: white;
+   font-family: eurostar;
 
 }
+.description{font-size: 18px;}
+.logo{
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.photo{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+a:hover{
+    color: white;
+
+
+}
+a:visited{
+    color: #828282;
+}
+
+.gallery{
+    color: red;
+}
+
+.name{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    margin: auto;
+    font-size: 48px;
+}
+.box{
+    background-color: #42bff5;
+    margin: 10px;
+    padding: 5px;
+}
+.taskbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 50px;
+}
+.name{
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+@media screen and (max-width: 768px){
+    .taskbar{
+        max-width: 80vw; 
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .logo{
+        max-width: 80%;
+    }
+    .menu{
+        font-size: 24px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){}
